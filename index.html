@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+  
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="phosphor/web-2.1.2/src/regular/style.css" />
+    <title>Handyman</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light py-3">
+        <div class="container-fluid px-4">
+          <a class="navbar-brand me-5" href="#">
+            <div class="brand-icon">
+              <img src="/image/Handyman-Logo.svg" alt="logo" />
+            </div>
+            Handyman
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My Booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Category</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Providers</a>
+              </li>
+            </ul>
+
+            <div class="d-lg-none mt-3 pb-3 border-top pt-3">
+              <div class="custom-input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search" />
+                <i class="ph ph-magnifying-glass" style="font-size: 20px"></i>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex gap-3">
+                  <button class="btn btn-light rounded-circle text-muted">
+                    <i class="bi bi-bell"></i>
+                  </button>
+                  <button class="btn btn-light rounded-circle text-muted">
+                    <i class="bi bi-sun"></i>
+                  </button>
+                </div>
+                <a href="#" class="profile-img-cover">
+                  <img
+                    src="/image/profile.jpg"
+                    alt="User"
+                    class="profile-img"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="d-none d-lg-flex align-items-center gap-3">
+              <div class="custom-input-group" style="max-width: 127px">
+                <input type="text" class="form-control" placeholder="Search" />
+                <i class="ph ph-magnifying-glass" style="font-size: 20px"></i>
+              </div>
+
+              <div class="custom-input-group" style="max-width: 250px">
+                <i class="ph ph-map-pin" style="font-size: 20px"></i>
+                <span class="text-muted small me-2">456 Oak Avenue...</span>
+                <i class="ph ph-caret-down"></i>
+              </div>
+
+              <div class="custom-input-group">
+                <img
+                  src="https://flagcdn.com/w20/gb.png"
+                  alt="UK"
+                  width="20"
+                  class="me-2"
+                />
+                <span class="fw-bold small me-2">EN</span>
+                <i class="ph ph-caret-down"></i>
+              </div>
+              <div class="web-icon-header">
+                <button class="btn btn-light rounded-circle">
+                  <i class="ph ph-sun d-flex justify-content-center"></i>
+                </button>
+                <button class="btn btn-light rounded-circle">
+                  <i class="ph ph-bell d-flex justify-content-center"></i>
+                </button>
+              </div>
+
+              <a href="#" class="profile-img-cover">
+                <img src="/image/profile.jpg" alt="User" class="profile-img" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="hero-section">
+      <div class="container-fluid">
+        <div class="d-flex hero-section justify-content-center">
+          <img
+            src="/image/hero-img.png"
+            alt="hero-img"
+            class="hero-img img-fluid"
+          />
+
+          <div class="hero-content text-center">
+            <div class="hero-subtitle-wrapper">
+              <h1 class="hero-subtitle">
+                🎉 New features are launching soon. Stay Tune!
+              </h1>
+            </div>
+            <h1 class="hero-title">
+              Your Instant Link to the Perfect Handyman Service
+            </h1>
+            <div class="hero-search-wrapper">
+              <form class="d-flex justify-content-center">
+                <div class="input-group input-group-md w-75">
+                  <input
+                    type="text"
+                    class="form-control hero-input"
+                    placeholder="Search For Any Service..."
+                    aria-label="Search For Any Service"
+                  />
+
+                  <button class="btn btn-primary hero-btn" type="button">
+                    <i class="ph ph-magnifying-glass"></i>
+                  </button>
+                </div>
+              </form>
+              <div class="hero-btns-wrapper d-flex">
+                <a href="#" class="hero-btns"
+                  >Tailor <i class="ph ph-arrow-up-right"></i
+                ></a>
+
+                <a href="#" class="hero-btns"
+                  >Smart Home <i class="ph ph-arrow-up-right"></i
+                ></a>
+
+                <a href="#" class="hero-btns"
+                  >Sanitization <i class="ph ph-arrow-up-right"></i
+                ></a>
+
+                <a href="#" class="hero-btns"
+                  >Repairing <i class="ph ph-arrow-up-right"></i
+                ></a>
+              </div>
+            </div>
+            <div class="flex-wrap rating-wrapper">
+              <div class="rating-btn d-flex align-items-center">
+                <i class="ph-fill ph-star"></i>
+                <h6>4.8</h6>
+                <h6 class="small-txt">Overall Rating</h6>
+              </div>
+              <div class="total-rating">
+                <h6>Trusted by:</h6>
+                <h6><span class="dark-txt">1.5K</span> Customers</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="card-1">
+      <div class="container card-ctr">
+        <div
+          class="row row-cols-lg-3 row-cols-md-2 row-cols-1 justify-content-center gy-3"
+        >
+          <div class="col">
+            <div class="coupon-card-1">
+              <div class="d-flex flex-column card-content-1 justify-content-between">
+                <div class="d-flex flex-column gap-4 coupon-card-upper">
+                  <h4 class="m-0 card-title">Save 15% on First AC Repair!</h4>
+                  <div class="d-flex align-items-center gap-2">
+                    <h6 class="use-code mb-0">Use code:</h6>
+                    <div class="code-box">#First50</div>
+                  </div>
+                </div>
+                <h6 class="expiry-text-1 mb-0 text-light">
+                  Expires on May 30th, 2025
+                </h6>
+              </div>
+              <img
+                src="/image/ac.png"
+                alt="AC"
+                class="card-bg-img img-ac "
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="coupon-card-2">
+              <div class="d-flex flex-column card-content-2 justify-content-between">
+                <div class="d-flex flex-column   coupon-card-upper">
+                  <h4 class="m-0 card-title rolar">
+                    Get 20% OFF on Wall Painting!
+                  </h4>
+                  <div class="d-flex align-items-center gap-2">
+                    <h6 class="use-code mb-0 rolar">Use code:</h6>
+                    <div class="code-box rolar-box">#First50</div>
+                  </div>
+                </div>
+                <h6 class="expiry-text-2 mb-0 ">
+                  Expires on May 30th, 2025
+                </h6>
+              </div>
+              <img
+                src="/image/card-2.png"
+                alt="Painter"
+                class="card-bg-img img-painter img-fluid "
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="coupon-card-3">
+              <div class="d-flex flex-column card-content-3 justify-content-between" >
+                <div class="d-flex flex-column coupon-card-upper">
+                  <h4 class="m-0 card-title rolar">
+                    Get 20% OFF on Your <br />
+                    First Cleaning!
+                  </h4>
+                  <div class="d-flex align-items-center gap-2">
+                    <h6 class="use-code rolar mb-0">Use code:</h6>
+                    <div class="code-box rolar-box">#First50</div>
+                  </div>
+                </div>
+                <h6 class="expiry-text-3 mb-0 ">
+                  Expires on May 30th, 2025
+                </h6>
+              </div>
+
+            
+                <img
+                  src="/image/card-3.png"
+                  alt="Cleaner"
+                  class="img-cleaner img-fluid"
+                />
+                <div class="gradient-overlay"></div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="card-2" class="card-2">
+      <div class="container product-service-ctr">
+        <div
+          class="product-service-ctr-top d-flex justify-content-between align-items-center"
+        >
+          <h1 class="product-service-title mb-0">Popular Service Categories</h1>
+          <a href="#" class="btn see-all"> See All </a>
+        </div>
+        <div class="product-services-card row row-cols-lg-4 row-cols-xl-5 row-cols-md-3  row-cols-1 gx-xl-4 gx-lg-2   gy-3">
+          <div class="col">
+          <div class="service-card">
+            <h6 class="service-title">Plumber</h6>
+            <div class="service-img">
+              <img src="/image/tap.png" alt="Plumber" class="img-fluid tap-img"/>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="service-card">
+            <h6 class="service-title">AC Repair</h6>
+           <div class="service-image">
+
+             <img src="/image/ac-card.png" alt="Plumber" class="ac-img  img-fluid"/>
+
+           </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="service-card">
+            <h6 class="service-title">Pest Control</h6>
+<div class="service-img">
+
+  <img src="/image/pest.png" alt="Plumber" class=" img-fluid pest-img"/>
+</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="service-card">
+            <h6 class="service-title ">Wall Painting</h6>
+            <div class="service-img">
+
+              <img src="/image/paint.png" alt="Plumber" class="img-fluid paint-img"/>
+            </div>
+            </div>
+          </div>
+        <div class="col">
+          <div class="service-card">
+            <h6 class="service-title">Carpenter</h6>   
+            <div class="service-img">
+              <img src="/image/carpainter.png" alt="Plumber" class="img-fluid carpenter-img"/>
+
+            </div>
+          </div>
+        </div>
+          
+          
+          
+          
+        </div>
+      </div>
+    </section>
+    <section id="app" class="app-section">
+      <div class="container download-ctr">
+        <div class="row gy-3">
+          <div class="col-12 col-lg-5">
+            <h1 class="playstore-heading">
+              Elevate Your Experience with Our App
+            </h1>
+            <h6 class="playstore-txt mb-0">
+              Discover a Range of Handyman Services and Stay Updated on the
+              Latest Offers and Deals by Downloading Our App!
+            </h6>
+            <!-- <div class="application-icon d-flex"> -->
+            <div class="d-flex flex-column flex-md-row play-store">
+              <div class="play-store-icon">
+                <img src="/image/googleplay.png" alt="alt" />
+              </div>
+              <div class="app-store-icon">
+                <img src="/image/app-store.png" alt="alt" />
+              </div>
+              <!-- <div class="play-store-content">
+                  <h3 class="play-store-content-1">GET IT ON</h3>
+                  <h3 class="play-store-content-2">GOOGLE PLAY</h3>
+                </div> -->
+              <!-- </div> -->
+              <!-- <div class="app-store">
+                <div class="play-store-content">
+                  <h3 class="play-store-content-1">Download on the</h3>
+                  <h3 class="play-store-content-2">App Store</h3>
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 offset-lg-2">
+            <div class="qr-card google-play d-flex align-items-center">
+              <div class="qr-code">
+                <img src="/image/image.png" alt="qr-code" class="img-fluid" />
+              </div>
+              <div class="qr-card-content">
+                <h5 class="qr-card-content-1 mb-0">
+                  Scan & download for <br />google play store
+                </h5>
+              </div>
+            </div>
+            <div class="qr-card google-play d-flex align-items-center">
+              <div class="qr-code">
+                <img src="/image/image.png" alt="qr-code" class="img-fluid" />
+              </div>
+              <div class="qr-card-content">
+                <h5 class="qr-card-content-1 mb-0">
+                  Scan & download for <br />App Store
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="top-service " class="top-service-section">
+      <div class="container  top-service-ctr">
+        <div
+          class="product-service-ctr-top d-flex justify-content-between align-items-center"
+        >
+          <h1 class="product-service-title mb-0 text-capitalize">
+            Our Top Rated Services
+          </h1>
+          <a href="#" class="btn see-all"> See All </a>
+        </div>
+        <div
+          class="row row-cols-1 row-cols-lg-5 row-cols-md-3 top-service-card-section gy-4"
+        >
+        <div class="col">
+          <div class="top-service-card">
+            <div class="top-service-img-wrapper">
+              <img
+                src="/image/sewer-clean.png"
+                alt="img"
+                class="img-fluid sewer-img top-service-img"
+              />
+              <i class="ph ph-heart"></i>
+            </div>
+            <h6 class="top-service-title mb-0 text-capitalize">
+              Sewer Line Cleaning
+            </h6>
+            <div class="top-service-bottom-section">
+              <div class="top-service-rating">
+                <i class="ph-fill ph-star"></i>
+                <h6 class="top-ratings mb-0">
+                  4.8 <span class="light-txt">(625)</span>
+                </h6>
+              </div>
+              <h6 class="price">$250</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top-service-card">
+            <div class="top-service-img-wrapper">
+              <img
+                src="/image/home-painiting.png"
+                alt="img"
+                class="img-fluid sewer-img top-service-img"
+              />
+              <i class="ph ph-heart"></i>
+            </div>
+            <h6 class="top-service-title mb-0 text-capitalize">
+              Home Painting
+            </h6>
+            <div class="top-service-bottom-section">
+              <div class="top-service-rating">
+                <i class="ph-fill ph-star"></i>
+                <h6 class="top-ratings mb-0">
+                  4.8 <span class="light-txt">(625)</span>
+                </h6>
+              </div>
+              <h6 class="price">$250</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top-service-card">
+            <div class="top-service-img-wrapper">
+              <img
+                src="/image/ac-service.png"
+                alt="img"
+                class="img-fluid sewer-img top-service-img"
+              />
+              <i class="ph ph-heart"></i>
+            </div>
+            <h6 class="top-service-title mb-0 text-capitalize">
+              Foam-Jet AC service
+            </h6>
+            <div class="top-service-bottom-section">
+              <div class="top-service-rating">
+                <i class="ph-fill ph-star"></i>
+                <h6 class="top-ratings mb-0">
+                  4.8 <span class="light-txt">(625)</span>
+                </h6>
+              </div>
+              <h6 class="price">$250</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top-service-card">
+            <div class="top-service-img-wrapper">
+              <img
+                src="/image/facial.png"
+                alt="img"
+                class="img-fluid sewer-img top-service-img"
+              />
+              <i class="ph ph-heart"></i>
+            </div>
+            <h6 class="top-service-title mb-0 text-capitalize">
+              Customized Facials
+            </h6>
+            <div class="top-service-bottom-section">
+              <div class="top-service-rating">
+                <i class="ph-fill ph-star"></i>
+                <h6 class="top-ratings mb-0">
+                  4.8 <span class="light-txt">(625)</span>
+                </h6>
+              </div>
+              <h6 class="price">$250</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top-service-card">
+            <div class="top-service-img-wrapper">
+              <img
+                src="/image/intence-cleaning.png"
+                alt="img"
+                class="img-fluid intence-cleaning-img top-service-img"
+              />
+              <i class="ph ph-heart"></i>
+            </div>
+            <h6 class="top-service-title mb-0 text-capitalize">
+              Intense Cleaning
+            </h6>
+            <div class="top-service-bottom-section">
+              <div class="top-service-rating">
+                <i class="ph-fill ph-star"></i>
+                <h6 class="top-ratings mb-0">
+                  4.8 <span class="light-txt">(625)</span>
+                </h6>
+              </div>
+              <h6 class="price">$250</h6>
+            </div>
+          </div>
+        </div>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </section>
+    <section id="manual" class="manual-section">
+      <div class="container manual-ctr position-relative">
+        <img
+          src="/image/manual-bg.jpg"
+          alt="bg"
+          class="position-absolute manual-bg"
+        />
+        <div class="row gy-3">
+          <div class="col-12 col-lg-5">
+            <h1 class="manual-heading text-center">How handyman Application works!</h1>
+          </div>
+          <div class="col-12 col-lg-7">
+            <div
+              class="d-flex flex-column flex-md-row justify-content-between position-relative row-gap-5"
+            >
+              <div class="step-1">
+                <h1 class="number mb-0">01</h1>
+                <h1 class="step-name mb-0">Admin to provider</h1>
+              </div>
+              <img src="/image/arrow.svg" alt="arrow" class="arrow-img" />
+              <div class="step-1">
+                <h1 class="number mb-0">02</h1>
+                <h1 class="step-name mb-0">provider to handyman</h1>
+              </div>
+              <img src="/image/arrow.svg" alt="arrow" class="arrow-img-1" />
+              <div class="step-1">
+                <h1 class="number mb-0">03</h1>
+                <h1 class="step-name mb-0">Handyman to User</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="top-service " class="top-service-section">
+      <div class="container top-service-ctr">
+        <div
+          class="product-service-ctr-top d-flex justify-content-between align-items-center "
+        >
+          <h1 class="product-service-title mb-0 text-capitalize">
+            our Featured Services
+          </h1>
+          <a href="#" class="btn see-all"> See All </a>
+        </div>
+        <div
+          class="row row-cols-1 row-cols-lg-5 row-cols-md-3 top-service-card-section gy-4"
+        >
+        <div class="col">
+          <div class="top-service-card">
+            <div class="top-service-img-wrapper">
+              <img
+                src="/image/facial.png"
+                alt="img"
+                class="img-fluid sewer-img top-service-img"
+              />
+              <i class="ph ph-heart"></i>
+            </div>
+            <h6 class="top-service-title mb-0 text-capitalize">
+              full Home sanitizing Solution
+            </h6>
+            <div class="top-service-bottom-section">
+              <div class="top-service-rating">
+                <i class="ph-fill ph-star"></i>
+                <h6 class="top-ratings mb-0">
+                  4.8 <span class="light-txt">(625)</span>
+                </h6>
+              </div>
+              <h6 class="price">$250</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top-service-card">
+            <div class="top-service-img-wrapper">
+              <img
+                src="/image/sewer-clean.png"
+                alt="img"
+                class="img-fluid sewer-img top-service-img"
+              />
+              <i class="ph ph-heart"></i>
+            </div>
+            <h6 class="top-service-title mb-0 text-capitalize">
+              Sewer Line Cleaning
+            </h6>
+            <div class="top-service-bottom-section">
+              <div class="top-service-rating">
+                <i class="ph-fill ph-star"></i>
+                <h6 class="top-ratings mb-0">
+                  4.8 <span class="light-txt">(625)</span>
+                </h6>
+              </div>
+              <h6 class="price">$250</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top-service-card">
+            <div class="top-service-img-wrapper">
+              <img
+                src="/image/intence-cleaning.png"
+                alt="img"
+                class="img-fluid intence-cleaning-img top-service-img"
+              />
+              <i class="ph ph-heart"></i>
+            </div>
+            <h6 class="top-service-title mb-0 text-capitalize">
+              Intense Cleaning
+            </h6>
+            <div class="top-service-bottom-section">
+              <div class="top-service-rating">
+                <i class="ph-fill ph-star"></i>
+                <h6 class="top-ratings mb-0">
+                  4.8 <span class="light-txt">(625)</span>
+                </h6>
+              </div>
+              <h6 class="price">$250</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top-service-card">
+            <div class="top-service-img-wrapper">
+              <img
+                src="/image/home-painiting.png"
+                alt="img"
+                class="img-fluid sewer-img top-service-img"
+              />
+              <i class="ph ph-heart"></i>
+            </div>
+            <h6 class="top-service-title mb-0 text-capitalize">
+              Home Painting
+            </h6>
+            <div class="top-service-bottom-section">
+              <div class="top-service-rating">
+                <i class="ph-fill ph-star"></i>
+                <h6 class="top-ratings mb-0">
+                  4.8 <span class="light-txt">(625)</span>
+                </h6>
+              </div>
+              <h6 class="price">$250</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top-service-card">
+            <div class="top-service-img-wrapper">
+              <img
+                src="/image/ac-service.png"
+                alt="img"
+                class="img-fluid sewer-img top-service-img"
+              />
+              <i class="ph ph-heart"></i>
+            </div>
+            <h6 class="top-service-title mb-0 text-capitalize">
+              Foam-Jet AC service
+            </h6>
+            <div class="top-service-bottom-section">
+              <div class="top-service-rating">
+                <i class="ph-fill ph-star"></i>
+                <h6 class="top-ratings mb-0">
+                  4.8 <span class="light-txt">(625)</span>
+                </h6>
+              </div>
+              <h6 class="price">$250</h6>
+            </div>
+          </div>
+        </div>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </section>
+    <section id="reviews" class="review">
+      <div class="container review-ctr row justify-content-center">
+        <div class="col-12 col-md-9 ">
+          <div class="review-card ">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 5V35L15 20V5H0Z" fill="#5F60B9"/>
+<path d="M25 5V35L40 20V5H25Z" fill="#5F60B9"/>
+</svg>
+
+          <div class="review-rating d-flex align-items-center">
+            <div class="review-icon d-flex">
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+              <i class="ph-fill ph-star"></i>
+            </div>
+            <h6 class="review-number mb-0">
+              5.0
+            </h6>
+          </div>
+          <h3 class="review-txt text-capitalize">
+            "I couldn't be happier with the service!<span class="primary-txt"> The handyman arrived on time</span>, was incredibly professional, and fixed everything in no time."
+          </h3>
+          <div class="blog-profile d-flex align-items-center">
+                  <div class="profile-img-wrapper">
+
+                    <img src="/image/review-user.png" alt="profile img" class="img-fluid">
+                  </div>
+                  <div class="profile-detailes">
+                    <h6 class="user-name mb-0">
+                      Michael Johnson
+                    </h6>
+                    <h5 class="profile-date mb-0">
+                      may 25, 2025
+                    </h5>
+                  </div>
+                </div>
+        </div>
+        </div>
+        
+
+      </div>
+    </section>
+    <section id="service-request" class="service-request">
+      <div class="container position-relative service-request-ctr m-auto row">
+        <div class="service-request-content col-md-8 col-lg-6 col-12">
+          <h1 class="text-capitalize request-banner-heading">
+            Can't find your service?
+          </h1>
+          <h2 class="text-capitalize request-banner-subtitle mb-0">
+            Post your request, and we'll do our best to fulfill it.
+          </h2>
+          <a href="#" class="request-link"> New Request </a>
+        </div>
+        <img
+          src="/image/request-banner.png"
+          alt="img"
+          class="img-fluid request-banner-img position-absolute"
+        />
+      </div>
+    </section>
+    <section id="query" class="query">
+      <div class="container query-ctr">
+        <h1 class="query-heading text-center">Frequently asked questions</h1>
+        <h6 class="query-subtitle text-center">
+          These services are getting all the love! Trusted by real users, rated
+          the best—book your go-to expert in just a few clicks
+        </h6>
+        <div class="container accordion-ctr">
+          <div class="accordion d-flex flex-column" id="accordionquery">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button text-capitalize"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  How can I change or cancel my appointment with the handyman?
+
+                  <svg
+                    class="ms-auto custom-icon"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.66602 10H13.3327"
+                      stroke="#5F60B9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <path
+                      class="icon-plus"
+                      d="M10 6.66602V13.3327"
+                      stroke="#5F60B9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <path
+                      d="M7.49935 18.3332H12.4993C16.666 18.3332 18.3327 16.6665 18.3327 12.4998V7.49984C18.3327 3.33317 16.666 1.6665 12.4993 1.6665H7.49935C3.33268 1.6665 1.66602 3.33317 1.66602 7.49984V12.4998C1.66602 16.6665 3.33268 18.3332 7.49935 18.3332Z"
+                      stroke="#5F60B9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionquery"
+              >
+                <div class="accordion-body">
+                  <h6>
+                    Absolutely! You can easily reschedule or cancel your test
+                    through the app as long as it's before the scheduled time.
+                    Just keep in mind that cancellation policies might differ.
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed text-capitalize"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  What types of payment do you accept for handyman services?<svg
+                    class="ms-auto custom-icon"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.66602 10H13.3327"
+                      stroke="#5F60B9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <path
+                      class="icon-plus"
+                      d="M10 6.66602V13.3327"
+                      stroke="#5F60B9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <path
+                      d="M7.49935 18.3332H12.4993C16.666 18.3332 18.3327 16.6665 18.3327 12.4998V7.49984C18.3327 3.33317 16.666 1.6665 12.4993 1.6665H7.49935C3.33268 1.6665 1.66602 3.33317 1.66602 7.49984V12.4998C1.66602 16.6665 3.33268 18.3332 7.49935 18.3332Z"
+                      stroke="#5F60B9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionquery"
+              >
+                <div class="accordion-body">
+                 <h6>
+                    Absolutely! You can easily reschedule or cancel your test
+                    through the app as long as it's before the scheduled time.
+                    Just keep in mind that cancellation policies might differ.
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed text-capitalize"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Will my personal information and service details remain
+                  private?<svg
+                    class="ms-auto custom-icon"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.66602 10H13.3327"
+                      stroke="#5F60B9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <path
+                      class="icon-plus"
+                      d="M10 6.66602V13.3327"
+                      stroke="#5F60B9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <path
+                      d="M7.49935 18.3332H12.4993C16.666 18.3332 18.3327 16.6665 18.3327 12.4998V7.49984C18.3327 3.33317 16.666 1.6665 12.4993 1.6665H7.49935C3.33268 1.6665 1.66602 3.33317 1.66602 7.49984V12.4998C1.66602 16.6665 3.33268 18.3332 7.49935 18.3332Z"
+                      stroke="#5F60B9"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionquery"
+              >
+                <div class="accordion-body">
+                 <h6>
+                    Absolutely! You can easily reschedule or cancel your test
+                    through the app as long as it's before the scheduled time.
+                    Just keep in mind that cancellation policies might differ.
+                  </h6>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center"><a href="#" class="accordion-link ">   All Question </a></div>
+        </div>
+          
+    
+    </section>
+    <section id="blog" class="blog-section">
+      <div class="container blog-ctr">
+        <div
+          class="product-service-ctr-top d-flex justify-content-between align-items-center"
+        >
+          <h1 class="product-service-title mb-0 text-capitalize">
+  Our Blogs
+          </h1>
+          <a href="#" class="btn see-all"> See All </a>
+        </div>
+        <div class="blog-card-section row row-cols-1 row-cols-md-2  row-cols-lg-3 gy-4 justify-content-center">
+          <div class="col">
+            <div class="blog-card">
+              <div class="blog-img-wrapper">
+                <img src="/image/blog0.png" alt="blog-img" class="img-fluid blog-img">
+                <div class="blog-info d-flex">
+                  <h6 class="blog-date mb-0">
+                     October 6, 2025
+                  </h6>
+                  <div class="blog-view d-flex justify-content-center align-items-center">
+                    <i class="ph ph-eye"></i>
+                    <h6 class="mb-0">10</h6>
+                  </div>
+                </div>
+                
+                
+              </div>
+              <div class="blog-content">
+                <h2 class="blog-title">
+                  Top 10 Cleaning Hacks for Busy Homeowners
+                </h2>
+                <h6 class="blog-txt">
+                  From kitchen stains to dusty corners, these quick and easy cleaning hacks will keep your home sparkling...
+                </h6>
+                </div>
+                <div class="blog-profile d-flex align-items-center">
+                  <div class="profile-img-wrapper">
+
+                    <img src="/image/blog-profile.png" alt="profile img" class="blog-profile-img">
+                  </div>
+                  <div class="profile-detailes">
+                    <h6 class="user-name mb-0">
+                      Michael Johnson
+                    </h6>
+                    <h5 class="profile-date mb-0">
+                      may 25, 2025
+                    </h5>
+                  </div>
+                </div>
+            </div>
+          </div>
+<div class="col">
+            <div class="blog-card">
+              <div class="blog-img-wrapper">
+                <img src="/image/blog1.png" alt="blog-img" class="img-fluid blog-img">
+                <div class="blog-info d-flex">
+                  <h6 class="blog-date mb-0">
+                     October 6, 2025
+                  </h6>
+                  <div class="blog-view d-flex justify-content-center align-items-center">
+                    <i class="ph ph-eye"></i>
+                    <h6 class="mb-0">10</h6>
+                  </div>
+                </div>
+                
+                
+              </div>
+              <div class="blog-content">
+                <h2 class="blog-title">
+                How to Choose the Right Wall Paint for Every Room
+                </h2>
+                <h6 class="blog-txt">
+                 From kitchen stains to dusty corners, these quick and easy cleaning hacks will keep your home sparkling...        </h6>
+                </div>
+                <div class="blog-profile d-flex align-items-center">
+                  <div class="profile-img-wrapper">
+
+                    <img src="/image/blog-profile.png" alt="profile img" class="blog-profile-img">
+                  </div>
+                  <div class="profile-detailes">
+                    <h6 class="user-name mb-0">
+                      Michael Johnson
+                    </h6>
+                    <h5 class="profile-date mb-0">
+                      may 25, 2025
+                    </h5>
+                  </div>
+                </div>
+            </div>
+          </div><div class="col">
+            <div class="blog-card">
+              <div class="blog-img-wrapper">
+                <img src="/image/blog0.png" alt="blog-img" class="img-fluid blog-img">
+                <div class="blog-info d-flex">
+                  <h6 class="blog-date mb-0">
+                     October 6, 2025
+                  </h6>
+                  <div class="blog-view d-flex justify-content-center align-items-center">
+                    <i class="ph ph-eye"></i>
+                    <h6 class="mb-0">10</h6>
+                  </div>
+                </div>
+                
+                
+              </div>
+              <div class="blog-content">
+                <h2 class="blog-title">
+                  Top 10 Cleaning Hacks for Busy Homeowners
+                </h2>
+                <h6 class="blog-txt">
+                  From kitchen stains to dusty corners, these quick and easy cleaning hacks will keep your home sparkling...
+                </h6>
+                </div>
+                <div class="blog-profile d-flex align-items-center">
+                  <div class="profile-img-wrapper">
+
+                    <img src="/image/blog-profile.png" alt="profile img" class="blog-profile-img">
+                  </div>
+                  <div class="profile-detailes">
+                    <h6 class="user-name mb-0">
+                      Michael Johnson
+                    </h6>
+                    <h5 class="profile-date mb-0">
+                      may 25, 2025
+                    </h5>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="promotional-banner" class="promotional-banner">
+      <div class="container promotional-ctr">
+        <div
+          class="product-service-ctr-top d-flex justify-content-between align-items-center"
+        >
+          <h1 class="product-service-title mb-0 text-capitalize">
+Promotional Banners
+          </h1>
+          <a href="#" class="btn see-all"> View All </a>
+        </div>
+        
+        <div class="banner row position-relative   align-items-center overflow-hidden" >
+          <img src="/image/promotional-banner.png" alt="promotional background" class="img-fluid position-absolute w-100 h-100 banner-img">
+          <div class=" col-12 col-md-7 col-lg-5">
+            <div class="banner-info">
+              <h4 class="banner-subtitle">
+                Professional
+              </h4>
+              <h1 class="banner-heading">
+                Home Plumbing
+              </h1>
+              <a href="#" class="banner-btn">
+              Services
+              </a>
+              <a href="#" class="contact-us">
+               <h6>Contact Us</h6> 
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container footer-ctr">
+        <div
+          class="product-service-ctr-top d-flex justify-content-md-between justify-content-center flex-wrap align-items-center gap-3"
+        >
+         <a class="navbar-brand me-5" href="#">
+            <div class="brand-icon">
+              <img src="/image/Handyman-Logo.svg" alt="logo" />
+            </div>
+            Handyman
+          </a>
+          <div class="play-store-icons d-flex">
+            <img src="/image/googleplay.png" alt="img" >
+            <img src="/image/app-store.png" alt="img">
+          </div>
+        </div>
+        <div >
+          <div class="row footer-main gy-3">
+            <!-- first-col -->
+            <div class="col-xl-2 col-lg-6">
+          <h5 class="footer-heading text-capitalize">Important Information</h5>
+          <div class="d-flex  flex-column footer-info ">
+          <div class="imp-info">
+            <h6 class="imp-info-heading">Business Inquires:</h6>
+            <a href="mailto:hello@iqonic.design" class="contact-link fw-bold">hello@iqonic.design</a>
+          </div>
+          
+          <div class="imp-info">
+            <h6 class="imp-info-heading">Helpline Number:</h6>
+            <a href="tel:+15265897485" class="contact-link fw-bold">+15265897485</a>
+          </div>
+          </div>
+          
+        </div>
+        <!-- second-col -->
+         <div class="col-xl-3 col-lg-6">
+          <h5 class="footer-heading text-capitalize">Handyman Category</h5>
+          <div class="row ">
+            <div class="col-6">
+              <ul class="list-unstyled footer-links d-flex flex-column mb-0">
+                <li><a href="#">AC Cooler</a></li>
+                <li><a href="#">Pest Control</a></li>
+                <li><a href="#">Sanitization</a></li>
+                <li><a href="#">Cooking</a></li>
+                <li><a href="#">Photography</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="list-unstyled footer-links d-flex flex-column mb-0">
+                <li><a href="#">Gardening</a></li>
+                <li><a href="#">Salon</a></li>
+                <li><a href="#">Painter</a></li>
+                <li><a href="#">Plumber</a></li>
+                <li><a href="#">Electrician</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- third-col -->
+         <div class="col-xl-5 col-lg-12">
+          <h5 class="footer-heading text-capitalize">Popular Services</h5>
+          <div class="row g-3 ">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <img src="/image/footer0.png" alt="Service" class=" service-thumb">
+                <div>
+                  <h6 class="mb-0 popular-title">Split AC Setup</h6>
+                  <h6 class="popular-price mb-0">$150</h6>
+                </div>
+              </div>
+            </div>
+             <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <img src="/image/footer1.png" alt="Service" class=" service-thumb">
+                <div>
+                  <h6 class="mb-0 popular-title">Window AC Install</h6>
+                  <h6 class="popular-price mb-0">$99</h6>
+                </div>
+              </div>
+            </div>
+             <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <img src="/image/footer2.png" alt="Service" class=" service-thumb">
+                <div>
+                  <h6 class="mb-0 popular-title">Water Heater</h6>
+                  <h6 class="popular-price mb-0">$155</h6>
+                </div>
+              </div>
+            </div>
+             <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <img src="/image/footer3.png" alt="Service" class=" service-thumb">
+                <div>
+                  <h6 class="mb-0 popular-title">Oil Change</h6>
+                  <h6 class="popular-price mb-0">$50</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fourth-col -->
+         <div class="col-xl-2 col-lg-6">
+          <h5 class="footer-heading text-capitalize">Connect with us on</h5>
+          <ul class="list-unstyled footer-social d-flex flex-column ">
+            <li><a href="#"><i class="ph-fill ph-facebook-logo"></i> Facebook</a></li>
+            <li><a href="#"><i class="ph-fill ph-x-logo"></i> Twitter</a></li>
+            <li><a href="#"><i class="ph-fill ph-instagram-logo"></i> Instagram</a></li>
+            <li><a href="#"><i class="ph-fill ph-youtube-logo"></i> YouTube</a></li>
+            <li><a href="#"><i class="ph-fill ph-linkedin-logo"></i> LinkedIn</a></li>
+          </ul>
+        </div> 
+          </div>
+          
+        </div>
+      </div>
+      <div class=" footer-bottom d-flex flex-wrap justify-content-xl-between justify-content-center align-items-center gap-3">
+                
+                <div class="copyright ">
+                    &copy; 2025 All Rights Reserved By 
+                    <a href="#" class="brand-link">IQONIC DESIGN</a>
+                </div>
+
+                <div class="footer-nav d-flex  flex-wrap footer-links footer-bottom-links">
+                    <a href="#" class="mb-0">Contact Us</a>
+                    <a href="#" class="mb-0">Terms & Condition</a>
+                    <a href="#" class="mb-0">Privacy Policy</a>
+                    <a href="#" class="mb-0">Help & Support</a>
+                    <a href="#" class="mb-0">Refund Policy</a>
+                    <a href="#" class="mb-0">Data Deletion Request</a>
+                </div>
+
+            </div>
+    </footer>
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/phosphor/web-2.1.2/src/index.js"></script>
+  </body>
+ </html>
